@@ -1,0 +1,147 @@
+000,1: Shell: . ./dtvplay-emulator.sh
+000,4: 10:36:07.938 [20694] <module> DEBUG: Module.h:60 - infra::Module<T>::Module() [with T = mediaplayer::MediaPlayerModule]: initializing
+000,4: 10:36:07.943 [20694] <singleton> DEBUG: Singleton.h:160 - Singleton:[N5infra9SingletonINS_7FactoryIN3lua18LuaEventDispatcherENS2_12LuaEventEnum4typeEN5boost8functionIFPS3_RP9lua_StateRiRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEEEENS_22DefaultSingletonTraitsISN_EEEE] ctor called 
+000,4: 10:36:07.944 [20694] <singleton> DEBUG: Singleton.h:165 - Singleton:[SyncManager] ctor called 
+000,4: 10:36:07.947 [20694] <module> DEBUG: Module.h:60 - infra::Module<T>::Module() [with T = playermgr::MediaPlayerImplModule]: initializing
+000,4: 10:36:07.947 [20694] <singleton> DEBUG: Singleton.h:160 - Singleton:[N5infra9SingletonINS_7FactoryIN9playermgr11MediaPlayerENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEN5boost8functionIFPS3_RNSA_10shared_ptrIN7locator7LocatorEEEEEEEENS_22DefaultSingletonTraitsISK_EEEE] ctor called 
+000,4: 10:36:07.948 [20694] <module> DEBUG: Module.h:60 - infra::Module<T>::Module() [with T = html::HtmlModule]: initializing
+000,4: 10:36:07.949 [20694] <module> DEBUG: Module.h:69 - infra::Module<T>::Module() [with T = html::HtmlModule]: already initialized
+000,4: 10:36:07.951 [20694] <module> DEBUG: Module.h:60 - infra::Module<T>::Module() [with T = ncl::NclModule]: initializing
+000,4: 10:36:07.951 [20694] <singleton> DEBUG: Singleton.h:160 - Singleton:[N5infra9SingletonINS_7FactoryIN14applicationmgr11ApplicationENS2_15ApplicationType4typeEN5boost8functionIFNS6_10shared_ptrIS3_EERKNS2_13ApplicationIDERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESK_EEEEENS_22DefaultSingletonTraitsISN_EEEE] ctor called 
+000,4: 10:36:07.952 [20694] <module> DEBUG: Module.h:69 - infra::Module<T>::Module() [with T = html::HtmlModule]: already initialized
+000,4: 10:36:07.952 [20694] <singleton> DEBUG: Singleton.h:160 - Singleton:[N5infra9SingletonINS_7FactoryIN9filtermgr6tables5TableENS3_9TableType4typeEN5boost8functionIFPS4_RNS7_8weak_ptrINS2_13FilterManagerEEERjSE_EEEEENS_22DefaultSingletonTraitsISH_EEEE] ctor called 
+000,4: 10:36:07.953 [20694] <module> DEBUG: Module.h:69 - infra::Module<T>::Module() [with T = html::HtmlModule]: already initialized
+000,4: 10:36:07.956 [20694] <module> DEBUG: Module.h:69 - infra::Module<T>::Module() [with T = html::HtmlModule]: already initialized
+000,4: *******************************************************************************
+000,4: Copyright (c) 2010,2011,2012,2013,2014 Fundação CERTI
+000,4: Certi Common Libs-1.0.45[ebf2a1a0590bb8e294533ffa3b3c21a1b0acd64b]-dbg(Linux bruno@G5-5590)
+000,4: *******************************************************************************
+000,4: BuildTime:Wed Jan 26 22:48:44 2022
+000,4: *******************************************************************************
+000,4: 
+000,4: No entry for terminal type "xterm-256color";
+000,4: using dumb terminal settings.
+000,6: 10:36:08.180 [20694] <dtvplay-emu> DEBUG: DtvPlayEmulator.cpp:115 - virtual infra::ExecutionStatus::type dtvplay::DtvPlayEmulator::Run()
+001,0: virtual infra::ExecutionStatus::type infra::Executable::Run()
+002,3: Shell: log unblock *
+002,3: 10:36:09.829 [20697] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,3: 10:36:09.829 [20698] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,3: 10:36:09.839 [20697] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,3: 10:36:09.839 [20698] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,3: 10:36:09.849 [20697] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,3: 10:36:09.849 [20698] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,3: 10:36:09.859 [20697] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,3: 10:36:09.859 [20698] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,3: 10:36:09.869 [20697] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,3: 10:36:09.869 [20698] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,3: 10:36:09.879 [20697] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,3: 10:36:09.879 [20698] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,3: 10:36:09.889 [20697] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,3: 10:36:09.890 [20698] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,3: 10:36:09.900 [20697] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,3: 10:36:09.900 [20698] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,4: 10:36:09.910 [20697] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,4: 10:36:09.910 [20698] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,4: 10:36:09.920 [20698] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,4: 10:36:09.920 [20697] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,4: 10:36:09.930 [20697] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,4: 10:36:09.930 [20698] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,4: 10:36:09.940 [20698] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,4: 10:36:09.940 [20697] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,4: 10:36:09.950 [20698] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,4: 10:36:09.950 [20697] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,4: 10:36:09.960 [20698] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,4: 10:36:09.960 [20697] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,4: 10:36:09.970 [20697] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,4: 10:36:09.970 [20698] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,4: 10:36:09.981 [20697] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,4: 10:36:09.981 [20698] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,4: 10:36:09.991 [20698] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,4: 10:36:09.991 [20697] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,4: 10:36:10.001 [20697] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,4: 10:36:10.001 [20698] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,5: 10:36:10.011 [20698] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,5: 10:36:10.011 [20697] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,5: 10:36:10.021 [20698] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,5: 10:36:10.021 [20697] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,5: 10:36:10.031 [20698] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,5: 10:36:10.031 [20697] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,5: 10:36:10.041 [20698] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,5: 10:36:10.041 [20697] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,5: 10:36:10.051 [20698] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,5: 10:36:10.051 [20697] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,5: 10:36:10.061 [20698] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,5: 10:36:10.062 [20697] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,5: 10:36:10.071 [20698] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,5: 10:36:10.072 [20697] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,5: 10:36:10.081 [20698] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,5: 10:36:10.082 [20697] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,5: 10:36:10.092 [20698] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,5: 10:36:10.092 [20697] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,5: 10:36:10.102 [20698] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,5: 10:36:10.102 [20697] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,6: 10:36:10.112 [20698] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,6: 10:36:10.112 [20697] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,6: 10:36:10.122 [20698] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,6: 10:36:10.122 [20697] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,6: 10:36:10.132 [20698] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,6: 10:36:10.132 [20697] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,6: 10:36:10.142 [20698] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,6: 10:36:10.142 [20697] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,6: 10:36:10.152 [20698] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,6: 10:36:10.152 [20697] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,6: 10:36:10.162 [20698] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,6: 10:36:10.163 [20697] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,6: 10:36:10.172 [20698] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,6: 10:36:10.173 [20697] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,6: 10:36:10.182 [20698] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,6: 10:36:10.183 [20697] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,6: 10:36:10.192 [20698] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,6: 10:36:10.193 [20697] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,7: 10:36:10.203 [20698] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,7: 10:36:10.203 [20697] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,7: 10:36:10.213 [20698] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,7: 10:36:10.213 [20697] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,7: 10:36:10.223 [20698] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,7: 10:36:10.223 [20697] <tuner> WARNING: tuner_impl.cc:132 - No such file or directory
+002,7: Shell: log block *
+003,1: Shell: appmgr
+004,3: Shell: run NCL basedir application TestMain.ncl
+004,7: libEGL warning: DRI2: failed to authenticate
+005,2: #ATE#$C49503C$<tests>#ETA#
+005,2: #ATE#$C49503C$<tests>#ETA#
+005,2: #ATE#$C60412C$<test>#ETA#
+005,2: #ATE#$C60412C$<test>#ETA#
+005,2: #ATE#$C41100C$<id>0</id>#ETA#
+005,2: #ATE#$C41100C$<id>0</id>#ETA#
+005,2: #ATE#$C42871C$<name>ncl_poc_lua_PocAteTest_lua</name>#ETA#
+005,2: #ATE#$C42871C$<name>ncl_poc_lua_PocAteTest_lua</name>#ETA#
+005,2: #ATE#$C1143C$<verifications>#ETA#
+005,2: #ATE#$C1143C$<verifications>#ETA#
+005,2: PocAteTest.scheduleCheckPocAteTest[RUN]
+005,2: *****   Starting video recording   *****
+005,2: #ATE#$C52821C$<adapter><cam><video name="ncl_poc_lua_PocAteTest_lua1" caption="[FORUM] A video should be presented.">#ETA#
+005,2: #ATE#$C52821C$<adapter><cam><video name="ncl_poc_lua_PocAteTest_lua1" caption="[FORUM] A video should be presented.">#ETA#
+035,2: *****   Stoping video recording   *****
+035,2: #ATE#$C9747C$</video></cam></adapter>#ETA#
+037,2: #ATE#$C9747C$</video></cam></adapter>#ETA#
+037,2: PocAteTest.scheduleCheckPocAteTest[FINISHED]
+037,2: #ATE#$C22475C$</verifications>#ETA#
+037,2: #ATE#$C22475C$</verifications>#ETA#
+037,2: #ATE#$C43928C$<status code="PENDING" message="There is pending test"/>#ETA#
+037,2: #ATE#$C43928C$<status code="PENDING" message="There is pending test"/>#ETA#
+037,2: #ATE#$C30950C$<elapsedTime>30027</elapsedTime>#ETA#
+037,2: #ATE#$C30950C$<elapsedTime>30027</elapsedTime>#ETA#
+037,2: #ATE#$C20505C$</test>#ETA#
+037,2: #ATE#$C20505C$</test>#ETA#
+037,2: #ATE#$C18981C$</tests>#ETA#
+037,2: #ATE#$C18981C$</tests>#ETA#
+037,2: Shell: quit
+037,2: #$ATE_END$#
+037,2: 10:36:44.756 [20694] <dtvplay-emu> DEBUG: DtvPlayEmulator.cpp:136 - virtual void dtvplay::DtvPlayEmulator::Destroy()
+037,2: double free or corruption (fasttop)
+037,3: ./dtvplay-emulator.sh: line 37: 20694 Aborted                 (core dumped) ${GDB_COMMAND} "${SANDBOX_DIR}"/bin/dtvplay-emulator
+037,3: Shell: killall dtvplay-emulator
+037,3: dtvplay-emulator: no process found
+037,3: Shell: killall -9 dtvplay-emulator
+037,4: dtvplay-emulator: no process found

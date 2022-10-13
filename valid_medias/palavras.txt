@@ -1,0 +1,6 @@
+Abra um arquivo.
+Defina o índice de variáveis ​​e sinalize para zero.
+Execute um loop pelo arquivo linha por linha.
+Nesse loop, verifique a condição usando o operador 'in' para a string presente na linha ou não. Se for encontrado, sinalize para 0.
+Após o loop novamente, verifique se a condição para o sinalizador está definida ou não. Se a string definida for encontrada, imprima uma string e o número da linha, caso contrário, simplesmente imprima a mensagem 'String não encontrada'.
+Feche um arquivo.
