@@ -126,3 +126,64 @@ carrinho = (produto1, produto2)
 print(carrinho)
 
 # Teriamos que saber qual o indice de cada informação no produto
+# utilizando um dicionário: maior certeza sobre a informações
+carrinho = []
+produto1 = {'nome':'Playstation 4', 'quantidade': '1', 'preco2': '2300.00'}
+produto2 = {'nome': 'Jogo Ninja Lego', 'quantidade': '1', 'preco2': '212.00'}
+
+carrinho.append(produto1)
+carrinho.append(produto2)
+
+print(carrinho)
+
+
+#Métodos de dicionários
+
+d = dict(a=1,b=2,c=3)
+
+print(d)
+print(type(d))
+
+# Limpar o dicionario - Zerar dados
+
+# d.clear()
+# print(d)
+
+# Copiar um dicionário para outro - Deep copy
+# novo = d.copy()
+# print(novo)
+
+# novo['d'] = 4 #Cria uma chave D e coloca o 4 nele
+
+# print(d)
+# print(novo)
+
+# Copiar um dicionário para outro - Shallow copy
+# novo = d
+# print(novo)
+
+# novo['d'] = 5
+# print(d)
+# print(novo)
+
+# Forma não usual de criação de usuários
+outro = {}.fromkeys('a','b') # Chave: Valor
+print(outro)
+print(type(outro))
+
+usuarios = {}.fromkeys(['nome','pontos','email', 'profile'], 'desconhecido') # Dentro da lista virou Chave. Desconhecido virou valor pra cada um.
+print(usuarios)
+print(type(usuarios))
+
+# Metódo Fromkeys recebe dois parâmetros: um iterável e um valor.
+# Ele vai gerar para cada valor do iterável uma chave e irá atribuir a esta chave o valor informado.
+
+# veja = {}.fromkeys('teste','valor') # Em dicinário Python não tem repetição de chave
+# print(veja)
+# print(type(veja))
+
+veja = {}.fromkeys(range(1,11), 'novo')
+print(veja)
+
+
+
