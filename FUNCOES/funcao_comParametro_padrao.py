@@ -12,7 +12,6 @@ print('Luzia Amorim')
 print()
 
 # Parâmetro obrigatório
-
 def quadrado(numero):
     return numero ** 2
 
@@ -62,7 +61,7 @@ print(mostrar_info('Kamila'))
 # Funções como parêmetro
 
 def soma(num1, num2):
-    return a + b
+    return num1 + num2
 
 def mat(num1, num2, fun=soma):
     return fun(num1,num2)
@@ -71,7 +70,47 @@ def subtracao(num1, num2):
     return num1 - num2
 
 print(mat(2, 3))
-print(mat(2, 2, subtracao))
+print(mat(2, 2, subtracao)) # Função executada é a de subtração
 
+
+# Escopo - Evitar problemas e confusões..
+# Variáveis globais
+# Variáveis Locais
+
+instrutor = "Luzia" # Variávell global
+
+def diz_oi():
+    instrutor = 'Python' # Variável local se sobrepõe a variável global
+    palavra = 'Oi'
+    return f'{palavra} {instrutor}'
+
+print(diz_oi())
+
+# print(palavra) # NameError
+# ATENÇÃO com variáveis GLOBAIS (se puder evite)
+
+total = 0
+
+def incrementa():
+    global total # Avisando
+    total = total + 1 #UnboundLocalError - para retirar o erro deve avisar que vai pegar uma variável global
+    return total
+
+print(incrementa())
+
+# Podemos ter funções que são declaradas dentro de funções, e também tem um forma especial de escopo de variável
+
+def fora():
+    contador = 0
+
+    def dentro():
+        nonlocal contador # variável não é local e não é global, apenas está na função anterior
+
+        contador = contador + 1
+        return contador
+    return dentro()
+
+print(fora())
+print(fora())
 
 
